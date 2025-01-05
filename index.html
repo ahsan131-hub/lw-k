@@ -17,39 +17,107 @@
 
     <!-- Main Section -->
     <main class="container mx-auto py-8 px-4">
+      <!-- About Section -->
       <section class="mb-8">
         <h2 class="text-3xl font-bold mb-4">Über Uns</h2>
         <p class="leading-relaxed">
-          Willkommen bei LW&K, Ihrem zuverlässigen Partner für Werbung und
-          Kurierdienste. Wir übernehmen Zustellungen von Zeitungen,
-          Zeitschriften, Prospekten, Flyern und vielem mehr. Außerdem bringen
-          wir Werbung mit Radio direkt in die Ohren und Augen Ihrer Kunden.
+          Willkommen bei LW&K! Wir sind Ihr zuverlässiger Partner für kreative
+          Werbung und professionelle Kurierdienste. Unser Ziel ist es, Ihre
+          Botschaften effektiv zu verbreiten und Ihre Sendungen schnell und
+          sicher zuzustellen.
         </p>
       </section>
 
+      <!-- Services Section -->
       <section class="mb-8">
         <h2 class="text-3xl font-bold mb-4">Unsere Leistungen</h2>
-        <ul class="list-disc list-inside space-y-2">
-          <li>Zuverlässige Zustellung von Werbematerialien</li>
-          <li>Radio-Werbung für Ihre Marke</li>
-          <li>Individuelle Kurierdienste</li>
-        </ul>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <img src="./ADVERTISING.jpg" alt="Werbung" class="rounded shadow" />
+            <h3 class="text-xl font-bold mt-4">Werbung</h3>
+            <p>
+              Wir bringen Ihre Werbung auf die nächste Ebene! Ob Flyer,
+              Prospekte oder Radio-Werbung – wir haben die richtige Lösung für
+              Sie.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./COURIER.jpg"
+              alt="Kurierdienst"
+              class="rounded shadow"
+            />
+            <h3 class="text-xl font-bold mt-4">Kurierdienst</h3>
+            <p>
+              Unser Kurierdienst liefert Ihre Sendungen sicher und schnell an
+              jede gewünschte Adresse – zuverlässig und pünktlich.
+            </p>
+          </div>
+        </div>
       </section>
 
+      <!-- Google Map Section -->
+      <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4">Unser Standort</h2>
+        <p>Besuchen Sie uns in unserem Büro:</p>
+        <p class="font-bold mb-4">Bahnhofstraße 31 a, 35037 Marburg</p>
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe
+            class="rounded shadow"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.435682858494!2d8.751529315877535!3d50.81646107952717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bb5d31e8827f3b%3A0x9d74a6d7bc94d43a!2sBahnhofstra%C3%9Fe%2031a%2C%2035037%20Marburg%2C%20Germany!5e0!3m2!1sen!2sus!4v1673918514529!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
       <section class="mb-8">
         <h2 class="text-3xl font-bold mb-4">Kontakt</h2>
-        <p class="mb-2">Adresse:</p>
-        <p class="font-bold">Bahnhofstraße 31 a, 35037 Marburg</p>
-        <p class="mt-4">E-Mail:</p>
-        <a
-          href="mailto:lalawerbung786@gmail.com"
-          class="text-blue-600 underline"
-          >lalawerbung786@gmail.com</a
-        >
-        <p class="mt-4">Telefon:</p>
-        <a href="tel:+491623333786" class="text-blue-600 underline"
-          >0162 3333786</a
-        >
+        <p class="mb-2">Wir freuen uns auf Ihre Anfragen:</p>
+        <p>
+          <span class="font-bold">Telefon:</span>
+          <a href="tel:+491623333786" class="text-blue-600 underline"
+            >0162 3333786</a
+          >
+        </p>
+        <p>
+          <span class="font-bold">E-Mail:</span>
+          <a
+            href="mailto:lalawerbung786@gmail.com"
+            class="text-blue-600 underline"
+            >lalawerbung786@gmail.com</a
+          >
+        </p>
+        <p>
+          <span class="font-bold">Adresse:</span> Bahnhofstraße 31 a, 35037
+          Marburg
+        </p>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4">Was Kunden sagen</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white shadow rounded p-4">
+            <p class="italic">
+              "Dank LW&K konnten wir unsere Werbung effizient verbreiten. Ihre
+              Dienstleistungen sind schnell und zuverlässig!"
+            </p>
+            <p class="mt-2 font-bold">– Kunde A</p>
+          </div>
+          <div class="bg-white shadow rounded p-4">
+            <p class="italic">
+              "Der Kurierdienst hat uns beeindruckt – alle Sendungen kamen
+              pünktlich und in einwandfreiem Zustand an."
+            </p>
+            <p class="mt-2 font-bold">– Kunde B</p>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -59,4 +127,3 @@
     </footer>
   </body>
 </html>
-`
